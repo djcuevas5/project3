@@ -311,4 +311,21 @@ strong {
   margin: 0 auto;
 }
 
+  /* map.html css */
 
+#map-wrapper{
+  width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px 2px rgb(55, 54, 54); 
+    border-radius: 12px 12px 0px 0px; 
+}
+
+#map-header{
+  position: relative;
+    margin-bottom: 55px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+#main-map-nav{
+  
+}
