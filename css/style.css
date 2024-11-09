@@ -1,0 +1,314 @@
+
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp11620070.jpg"); 
+    font-family: "Monaco", monospace;
+    background-size: cover;
+
+  }
+  
+  #page-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px 2px rgb(55, 54, 54); 
+    border-radius: 12px 12px 0px 0px; 
+  }
+  
+  #header {
+    position: relative;
+    margin-bottom: 55px;
+    border-radius: 10px 10px 0px 0px; 
+  }
+  
+  #header h1 {
+    position: absolute;
+    left: 325px;
+    top: 30px;
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+    color: #807674;
+  }
+  
+  #header #toplink {
+    text-decoration: none;
+    position: absolute;
+    top:-34px;
+    right: 10px;
+    color: white;
+    font-size: 1.8em;
+  }
+  
+  #footer {
+    background-color: #b7937e;
+    height: 80px;
+    clear: both;
+  }
+  
+  #content-wrapper {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/097/774/original/abstract-contemporary-aesthetic-background-with-desert-mountains-sun-earth-tones-burnt-orange-terracotta-colors-boho-wall-decor-landscapes-set-with-sunrise-sunset-earth-tones-pastel-colors-free-vector.jpg");
+    float: left;
+    width: 100%;
+    color: #2f2e2e;
+    background-size: cover;
+  }
+  
+  .center-text {
+    margin-top: -90px;
+    margin-left: 155px;
+    color: #353432;
+  }
+  
+
+  #main-content {
+    min-height: 250px;
+    width: 715px;
+    margin-right: 50px;
+    float: left;
+    margin-left: 15px;
+  }
+
+  #main-content img{
+    margin-top:50px;
+  }
+  
+  h2 strong {
+    font-size: 2em;
+    font-weight: 900;
+  }
+  
+  .image-r {
+    float: left;
+    border: 2px solid #777;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    margin: 40px 0 10px 20px;
+  }
+  
+  #side-content {
+    min-height: 100px;
+    width: 10px;
+    float: left;
+    color: #3b3a3a;
+  }
+
+  #side-content li{
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  #main-nav {
+    float: left;
+    width: 100%;
+    background-color: #b7937e;
+  }
+  
+  #main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    left:50%;
+  }
+  
+  #main-nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+  }
+  
+  #main-nav ul li a {
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  #main-nav ul li a:hover {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  #center {
+    width: 950px;
+    text-align: center;
+    color: #777;
+  }
+  
+  strong {
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  /* Video_profile.html css */
+
+  #page-wrapper1 {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px 2px rgb(55, 54, 54); 
+    border-radius: 12px 12px 0px 0px; 
+  }
+  
+  #header-music {
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(55, 54, 54)
+  }
+  
+  #header-music h1{
+    font-size: 3em;
+    font-family: 'Georgia', 'Times New Roman', serif;
+
+  }
+
+  #main-nav{
+    background-color: #3b3a3a
+  }
+
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  #heading2 {
+    text-align: center;
+    color: rgb(55, 54, 54);
+  }
+
+  /* resume.html css */
+  
+#page-wrapper-resume {
+  width: 960px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 2px rgb(55, 54, 54);
+  border-radius: 12px 12px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.9); 
+
+}
+
+#header-resume {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(55, 54, 54);
+}
+
+#header-resume h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#main-nav-resume {
+  background-color: #3b3a3a;
+  padding: 10px 0;
+}
+
+#header-resume ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#header-resume ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#header-resume ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+#header-resume ul li a:hover {
+  background-color: #b69b8c;
+  color: #2f2e2e;
+  border-radius: 5px;
+}
+
+#profile {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.intro {
+  max-width: 800px; 
+  margin: 20px auto; 
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center; 
+}
+
+#skills, #experience, #activities-honors {
+  clear: both;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#skills ul, #experience ul, #activities-honors ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills ul li, #experience ul li, #activities-honors ul li {
+  margin-bottom: 10px;
+}
+
+#footer {
+  background-color: #b7937e;
+  height: 80px;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 0 0 12px 12px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: rgb(55, 54, 54);
+}
+
+strong {
+  font-weight: bold;
+}
+#content-wrapper-resume {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #b69b8c;
+  padding: 20px;
+}
+
+#profile {
+  width: 50%; 
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+
