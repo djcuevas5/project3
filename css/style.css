@@ -323,9 +323,11 @@ strong {
 #map-header{
   position: relative;
     margin-bottom: 55px;
-    border-radius: 10px 10px 0px 0px; 
+    border-radius: 10px 10px 0px 0px;
+     
 }
 
-#main-map-nav{
-  
+#map-header{
+ text-align: center; 
 }
+

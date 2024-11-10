@@ -3,15 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Project 3: Favorite Music</title>
+    <title>Project 3: Google API Map</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWYQO6cpKjCy4p4VvOlScXCZazfKjfKhc&callback=initMap"></script>
 </head>
 
 <body>
-    <div id="map-wrapper">
+    <div id="page-wrapper">
         <header id="map-header">
             <h1>Google Maps</h1>
+            <p> The map of where I was born, Lipa City, Batangas, Philippines</p>
         </header>
 
         <nav id="main-nav">
@@ -19,10 +21,36 @@
                 <li><a href="index.html" title="Introduction">Introduction</a></li>
                 <li><a href="resume.html" title="Resume">Resume</a></li>
                 <li><a href="video_profile.html" title="Music">Music</a></li>
-				<li><a href="map.html">Map</a></li>
+                <li><a href="map.html">Map</a></li>
             </ul>
         </nav>
+
+        <section id="map-wrapper">
+            <div id="map"></div>
+        </section>
     </div>
+
+    <script>
+        function initMap() {
+            const mapOptions = {
+                center: { lat: 13.9433, lng: 121.1621 }, 
+                zoom: 12,
+            };
+            const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+
+    <style>
+        #map-wrapper {
+            width: 95%;
+            height: 500px; 
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </body>
 
 </html>
