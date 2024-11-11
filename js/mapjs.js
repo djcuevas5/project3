@@ -20,7 +20,7 @@ function initMap() {
     map: map,
   });
   
-  var contentString = "<p> The map of where I was born, Lipa City, Batangas, Philippines</p>";
+  var contentString = "<p> The location of where I was born, Lipa City, Batangas, Philippines</p>";
   
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
